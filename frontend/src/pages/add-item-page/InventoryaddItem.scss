@@ -1,0 +1,183 @@
+$primary-color-lightBlue:#0d6bc2 ;
+$secondary-color-lightBlue1: #0d6bc2 ;
+$secondary-color-lightBlue2: #5f27cd;
+$secondary-color-lightBlue3: #9980fa;
+$secondary-color-lightBlue4: #e9e3ff;
+$ash-color: #636e72;
+$success-color: #2ecc71;
+$danger-color: #e74c3c;
+
+// fonts
+$fontfam-1: "Poppins", sans-serif;
+
+.inventoryadd-item-container-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90vh; //change height accordingly
+    background:white; //rgb(86, 126, 229);
+    background: white//linear-gradient(
+		// 106deg,
+		//rgba(65, 127, 233, 0.872) 0%,
+		//rgba(255, 255, 255, 1) 100%);
+    //linear-gradient(to right, $primary-color-lightBlue, $secondary-color-lightBlue1);
+}
+
+.inventoryadd-item-form-container {
+    width: 950px;
+    height: 600px;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 5px 5px 8px rgba($color: #000000, $alpha: 0.4), -5px -5px 8px rgba($color: #000000, $alpha: 0.4);
+    padding: 20px;
+}
+
+.inventoryform-status-model {
+    width: 500px;
+    height: 50px;
+    margin: 20px 0;
+    border-radius: 10px;
+    visibility: hidden;
+}
+
+.inventoryform-status-model.validation-success {
+    background: rgba(46, 213, 115, 0.37);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.7px);
+    -webkit-backdrop-filter: blur(7.7px);
+    border: 1px solid rgba(46, 213, 115, 1);
+    visibility: visible;
+}
+
+.inventoryform-status-model.validation-failed {
+    background: rgba(255, 71, 87, 0.15);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.8px);
+    -webkit-backdrop-filter: blur(7.8px);
+    border: 1px solid rgba(255, 71, 87, 1);
+    visibility: visible;
+}
+
+.inventorytagline-add-item {
+    font-size: 20px;
+    font-weight: 600;
+    color: $secondary-color-lightBlue1;
+}
+
+.inventorycolumn-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 530px;
+}
+
+.inventoryadd-item-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 450px;
+    height: 500px;
+}
+
+.inventoryinput-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.inventoryinput-title {
+    text-transform: capitalize;
+    color: $primary-color-lightBlue;
+    font-weight: 600;
+    color: $ash-color;
+    font-size: 0.9em;
+}
+
+.inventoryinput-field {
+    width: 400px;
+    font-size: 1em;
+    padding: 10px 20px;
+    outline: none;
+    margin: 10px 0 15px 0;
+    border: 2px solid $primary-color-lightBlue;
+    border-radius: 10px;
+}
+
+.inventoryinput-field:focus {
+    border-color: $secondary-color-lightBlue1;
+}
+
+.inventoryinput-textarea {
+    width: 400px;
+    font-size: 20px;
+    padding: 10px 20px;
+    font-family: $fontfam-1;
+    font-size: 1em;
+    outline: none;
+    margin: 10px 0 15px 0;
+    border: 2px solid $primary-color-lightBlue;
+    border-radius: 10px;
+    height: 130px;
+    resize: none;
+}
+
+.inventoryinput-textarea:focus {
+    border-color: $secondary-color-lightBlue1;
+}
+
+.inventoryselect-option {
+    width: 350px;
+    border: none;
+}
+
+.inventorybtn-container-add-item {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 400px;
+}
+
+.inventorysubmit-btn {
+    padding: 5px 50px;
+    width: 150px;
+    outline: none;
+    border: 2px solid transparent;
+    font-size: 18px;
+    background-color: $secondary-color-lightBlue1;
+    color: white;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+.inventoryreset-btn {
+    padding: 5px 50px;
+    width: 150px;
+    outline: none;
+    border: 2px solid $secondary-color-lightBlue1;
+    font-size: 18px;
+    background-color: transparent;
+    color: $primary-color-lightBlue;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+.inventorysubmit-btn:hover {
+    cursor: pointer;
+    box-shadow: 4px 4px 8px rgba($color: #000000, $alpha: 0.6);
+}
+
+.inventoryreset-btn:hover {
+    cursor: pointer;
+    box-shadow: 4px 4px 8px rgba($color: #000000, $alpha: 0.6);
+}
+.inventoryerror {
+    border: 1px solid red;
+  }
+  
+.inventoryerror-message {
+    color: red;
+  }

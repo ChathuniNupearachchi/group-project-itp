@@ -1,0 +1,189 @@
+// colors
+$primary-color-navyBlue: #152d61;
+$secondary-color-yellow1: #CCAF31;
+$secondary-color-blue1: #0d6bc2;
+$secondary-color-blue2: #5f27cd;
+$secondary-color-blue3: #9980fa;
+$secondary-color-blue4: #FFFFFF;
+
+.Inventorysidebar-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	width: 20vw;
+	height: 100vh;
+	padding-top: 5px;
+	background-color: $primary-color-navyBlue;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+.Inventorysidebar-container::-webkit-scrollbar {
+	display: none;
+}
+
+.InventorybrandName {
+	height: 10%;
+	padding: 10px 20px;
+	font-weight: 700;
+	font-size: 28px;
+	min-height: 70px;
+	width: 100%;
+	text-align: center;
+	color: $secondary-color-yellow1;
+}
+
+.InventorybrandFront {
+	color: $secondary-color-blue3;
+}
+
+// side bar items
+
+.InventoryfunctionPrompt {
+	width: 300px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 10px;
+	margin: 5px 0;
+	user-select: none;
+	cursor: pointer;
+}
+
+.InventorymainFuncIcon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	margin-right: 10px;
+	color: white;
+}
+
+.InventorymainFuncItemName {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	font-size: 18px;
+	margin-left: 10px;
+	margin-right: 15px;
+	width: 250px;
+	color: white;
+	font-weight: semibold;
+
+}
+
+.InventoryscrollFuncIcon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	margin-right: 10px;
+	color: white;
+}
+
+.Inventoryscroll-function-show {
+	transform: rotate(90deg);
+}
+
+.Inventorycont-show {
+	height: auto;
+}
+
+.Inventorycont-hide {
+	height: 0px;
+	overflow: hidden;
+}
+
+.Inventorynested-function-container {
+	height: 0;
+	overflow: hidden;
+	transition: all 0.4s ease-in-out;
+}
+
+.Inventorynested-function-container .cont-show {
+	height: auto;
+}
+
+.Inventoryside-bar-item-container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.Inventoryside-bar-item-container::-webkit-scrollbar-thumb {
+	background-color: $secondary-color-blue1;
+	border-radius: 15px;
+}
+
+.Inventoryside-bar-item-container::-webkit-scrollbar {
+	width: 0.3em;
+}
+
+.Inventoryside-bar-nested-item {
+	text-decoration: none;
+	background: none;
+	border: none;
+	color: $secondary-color-blue4;
+	text-transform: capitalize;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	width: 280px;
+	padding: 0 0 0 50px;
+	font-size: 20px;
+	height: 40px;
+	margin: 10px 0;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+	transition: 0.3s;
+	padding-left: 60px; /* Adjust the left padding to increase space between icon and text */
+  margin-bottom: 15px
+}
+
+.Inventoryside-bar-nested-item:hover {
+	color: $secondary-color-blue1;
+	cursor: pointer;
+}
+
+.Inventoryside-bar-nested-item:hover > .icon {
+	color: $secondary-color-blue1;
+}
+
+.Inventoryactive-nested-item {
+	background-color: rgba($color: #ffffff, $alpha: 0.9);
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+	color: $secondary-color-blue1;
+	text-decoration: none;
+	text-transform: capitalize;
+	border: none;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	width: 280px;
+	padding: 0 0 0 50px;
+	font-size: 16px;
+	height: 40px;
+	margin: 10px 0;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+	transition: 0.3s;
+}
+
+.Inventoryicon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 18px;
+	margin-right: 15px;
+}
+
+.Inventoryitem-name {
+	font-size: 18px;
+	font-weight: 500;
+}

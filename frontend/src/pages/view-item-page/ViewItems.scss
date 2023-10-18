@@ -1,0 +1,112 @@
+/* ManageItems.scss */
+
+.container-shadow {
+    padding: 20px;
+    border: 1px solid #5f27cd;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(95, 39, 205, 0.5);
+  }
+  
+  .container-shadow h1 {
+    margin-bottom: 20px;
+  }
+  /* ManageItems.scss */
+
+  .search-bar {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  FormControl {
+    border: 1px solid #007BFF; /* Dark blue border */
+    border-radius: 4px; /* Rounded corners */
+    padding-right: 2rem; /* Space for the search icon */
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5); /* Blue shadow */
+  }
+  
+  .search-icon {
+    position: absolute;
+    right: 10px;
+    color: #007BFF; /* Dark blue icon color */
+  }
+  .listContainer {
+    height: calc(90vh - 10px);
+    width: 80vw;
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+
+.action {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.view {
+    font-size: 30px;
+    text-decoration: none;
+    color: grey;
+    margin-right: 10px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.edit {
+    font-size: 25px;
+    padding-top: 5px;
+    text-decoration: none;
+    color: green;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.delete {
+    font-size: 25px;
+    text-decoration: none;
+    color: red;
+    cursor: pointer;
+}
+
+
+
+// search bar stylings
+.searchBarContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 320px;
+}
+
+.searchField{
+    width: 250px;
+    border: transparent;
+    background-color: #eaeaea;
+    padding: 5px 0px 5px 10px;
+    border-radius: 5px 0 0 5px;
+    color: #2C2C54;
+    line-height: 1.2;
+    font-size: 18px;
+    outline: 2px solid #7D5FFF;
+}
+
+.searchBtn{
+    border: none;
+    font-size: 18px;
+    color: white;
+    padding: 5px;
+    line-height: 1.4;
+    width: 60px;
+    border-radius: 0 5px 5px 0;
+    background-color: #7D5FFF;
+}
+
+.search {
+    padding-top: 2px;
+    box-sizing: border-box;
+}
+
+.searchBtn:hover{
+    cursor: pointer;
+}
+  
