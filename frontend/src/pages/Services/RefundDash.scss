@@ -1,0 +1,82 @@
+/* Style for the table container */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for table headers */
+  th {
+    background-color: #f2f2f2;
+    text-align: left;
+    padding: 10px;
+  }
+  
+  /* Style for table rows */
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Style for table data cells */
+  td {
+    padding: 10px;
+  }
+  
+  /* Hover effect for table rows */
+  tr:hover {
+    background-color: #ddd;
+  }
+  // RefundDash.scss (or your CSS file)
+.blue-button {
+    background-color: #007bff; /* Blue color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    padding: 8px 16px; /* Adjust padding as needed */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    border-radius: 4px; /* Add rounded corners */
+  }
+  
+  .blue-button:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+  }
+  
+
+
+  //search bar
+
+
+
+.return-dashboard-container {
+  padding: 20px; 
+}
+
+.return-dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px; 
+}
+
+.tagline-add-service {
+  font-size: 24px; 
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.blue-search-bar {
+  font-size: medium;
+  color: #031663;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  width: 300px;
+  height: 35px;
+}
+
+
+
