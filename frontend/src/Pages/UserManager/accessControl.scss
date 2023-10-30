@@ -1,0 +1,57 @@
+/* AccessControl.scss */
+
+/* Style the entire container */
+.container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  /* Style the search bar */
+  .search-bar {
+    /* Add styles for the search bar */
+  }
+  
+  /* Style the table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; 
+    margin-left: 10px;
+   ;/* Add margin as needed */
+  }
+  
+  /* Style table headers (th elements) */
+  th {
+    background-color: #f2f2f2;
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #ccc;
+    /* Add other th styling properties */
+  }
+  
+  /* Style table cells (td elements) */
+  td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    /* Add other td styling properties */
+  }
+  
+  /* Add alternating row background colors */
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Style icons */
+  .icon-eye {
+    font-size: 20px;
+    color: #007bff;
+  }
+  
+  .icon-status-green {
+    color: green;
+  }
+  
+  .icon-status-red {
+    color: red;
+  }
+  

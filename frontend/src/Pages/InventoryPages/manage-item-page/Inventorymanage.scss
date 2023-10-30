@@ -1,0 +1,93 @@
+.InventorylistContainer {
+    height: calc(90vh - 10px);
+    width: 80vw;
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+
+.InventorylistItemName {
+    display: flex;
+    align-items: center;
+    
+}
+  
+.InventorylistItemImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.Inventoryaction {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Inventoryview {
+    font-size: 30px;
+    text-decoration: none;
+    color: grey;
+    margin-right: 10px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.Inventoryedit {
+    font-size: 25px;
+    padding-top: 5px;
+    text-decoration: none;
+    color: green;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.Inventorydelete {
+    font-size: 25px;
+    text-decoration: none;
+    color: red;
+    cursor: pointer;
+}
+
+
+
+// search bar stylings
+.InventorysearchBarContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 320px;
+}
+
+.InventorysearchField{
+    width: 250px;
+    border: transparent;
+    background-color: #eaeaea;
+    padding: 5px 0px 5px 10px;
+    border-radius: 5px 0 0 5px;
+    color: #268ce4;
+    line-height: 1.2;
+    font-size: 18px;
+    outline: 2px solid #2d64cb;
+}
+
+.InventorysearchBtn{
+    border: none;
+    font-size: 18px;
+    color: white;
+    padding: 5px;
+    line-height: 1.4;
+    width: 60px;
+    border-radius: 0 5px 5px 0;
+    background-color: #3473e0;
+}
+
+.Inventorysearch {
+    padding-top: 2px;
+    box-sizing: border-box;
+}
+
+.InventorysearchBtn:hover{
+    cursor: pointer;
+}

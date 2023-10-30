@@ -1,0 +1,73 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+  
+  /* Style the left sidebar */
+  .sidebar {
+    background-color: #333;
+    color: #fff;
+    width: 250px;
+    /* Add other styles as needed */
+  }
+  
+  /* Style the main content area */
+  .main-content {
+    flex: 1;
+    padding: 20px;
+    /* Add other styles as needed */
+  }
+  
+  /* Style the form elements */
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left:200px;
+    margin-right: 100px;
+    width: 700px;
+  }
+  
+  input[type="email"],
+  input[type="text"],
+  input[type="select"],
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style the loader */
+  .loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+ 
+  
+  /* Style the icon */
+  .icon {
+    font-size: 35px;
+    color: #999;
+    /* Add other styles as needed */
+  }

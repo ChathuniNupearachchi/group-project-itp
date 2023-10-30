@@ -1,0 +1,44 @@
+/* Home.scss */
+.home {
+  display: flex;
+  flex-direction: column; /* Stack child elements vertically */
+  justify-content: space-between; /* Push elements to the top and bottom */
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(221, 221, 221);
+}
+
+.cnname {
+  /* Styles for the title */
+  margin-top: 60px; /* Adjust the top margin as needed */
+}
+
+.homecontainer {
+  /* Styles for the navigation container */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.homeli {
+  margin-left: 10px;
+  margin-bottom: 350px;
+}
+
+.home--btn {
+  background-color: #ffffff;
+  color: #0073e6;
+  border: 1px solid #0073e6;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s; /* Add a smooth transition effect */
+
+}

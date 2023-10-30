@@ -1,0 +1,205 @@
+.cardR {
+    background-color: #3498db; /* Blue background color */
+    color: #fff; /* Text color (white) */
+    padding: 20px; /* Padding for content */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    width: 210px;
+    height: 115px;
+  }
+  
+  .cardR h2 {
+    font-size: 24px;
+  }
+  
+  .cardR p {
+    font-size: 18px;
+  }
+  
+
+.return-box {
+    background-color: #e74c3c; 
+    color: #fff; 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .return-box h2 {
+    font-size: 24px; 
+  }
+  
+  .return-box p {
+    font-size: 18px; 
+  }
+
+  
+
+
+.monthly-report-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+  }
+  
+  .cardR {
+    margin: 10px; 
+  }
+  
+
+//Returns scss
+
+  .cardR1 {
+    background-color: #3498db; /* Blue background color */
+    color: #fff; /* Text color (white) */
+    padding: 20px; /* Padding for content */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    width: 200px;
+  }
+  
+  .cardR1 h2 {
+    font-size: 24px;
+  }
+  
+  .cardR1 p {
+    font-size: 18px;
+  }
+
+  .cardR1 {
+    margin: 10px; 
+  }
+
+
+  //Refunds scss
+
+  .cardR2 {
+    background-color: #3498db; /* Blue background color */
+    color: #fff; /* Text color (white) */
+    padding: 20px; /* Padding for content */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    width: 200px;
+  }
+  
+  .cardR2 h2 {
+    font-size: 24px;
+  }
+  
+  .cardR2 p {
+    font-size: 18px;
+  }
+
+  .cardR2 {
+    margin: 10px; 
+  }
+
+
+.link-style {
+    text-decoration: none; 
+    color: #007bff; 
+    font-weight: bold; 
+  }
+  
+  .link-style:hover {
+    color: #0056b3; 
+  }
+  
+
+
+.cardR:hover {
+  background-color: white; 
+  color: #3498db; 
+  border: 1px solid #007bff; 
+}
+
+
+.cardR:hover a.link-style {
+  color:  #3498db; 
+}
+
+.cardR1:hover {
+  background-color: white; 
+  color: #3498db; 
+  border: 1px solid #007bff; 
+}
+
+
+.cardR1:hover a.link-style {
+  color:  #3498db; 
+}
+
+
+.cardR2:hover {
+  background-color: white; 
+  color: #3498db; 
+  border: 1px solid #007bff; 
+}
+
+
+.cardR2:hover a.link-style {
+  color:  #3498db; 
+}
+
+
+.tagline-add-service {
+  font-size: 24px; 
+}
+
+
+//recent complaints 
+
+/* MonthlyReport.scss or a separate CSS file */
+
+/* Table styles */
+.complaint-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.complaint-table th, .complaint-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.complaint-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.complaint-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.complaint-table tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+.complaint-table tbody td {
+  color: rgb(24, 5, 122); /* Set the font color to red */
+}
+
+/* Add new styles to change font-weight */
+.complaint-table tr:first-child td {
+  font-weight: bold;
+}
+
+.complaint-table tr:nth-child(2) td {
+  font-weight: 600;
+}
+
+/* Adjust the font-weight values as needed for the desired effect */
+.complaint-table tr:nth-child(3) td {
+  font-weight: 500;
+}
+
+.complaint-table tr:last-child td {
+  font-weight: normal;
+}
+
+/* Recent complaints section styles */
+.recent-complaints {
+  margin-top: 20px;
+}

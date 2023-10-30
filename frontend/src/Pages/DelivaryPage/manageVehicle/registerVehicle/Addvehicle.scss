@@ -1,0 +1,130 @@
+// colors
+$primary-color-navyBlue : #0D6BC2;
+$secondary-color-purple1: #ea5e00;
+$secondary-color-purple2: #0D6BC2;
+$secondary-color-purple3: #ea5e00;
+$secondary-color-purple4: #E9E3FF;
+$ash-color: #636e72;
+
+// fonts
+$fontfam-1: "Poppins", sans-serif;
+
+.add-vehicle-container1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 90vh; //change height accordingly
+	background: #f6f9f9;
+}
+
+.form-container1 {
+	width: 950px;
+	height: 1400px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: white;
+	border-radius: 20px;
+	box-shadow: 8px 8px 10px rgba($color: #000000, $alpha: 0.5);
+}
+
+.add-vehicle-column1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	width: 450px;
+	height: 500px;
+}
+
+.input-container1 {
+	display: flex;
+	flex-direction: column;
+}
+
+.input-title1 {
+	text-transform: capitalize;
+	color: $primary-color-navyBlue;
+	font-weight: 600;
+	color: $ash-color;
+	font-size: 0.9em;
+}
+
+.input-field1 {
+	width: 400px;
+	font-size: 1em;
+	padding: 10px 20px;
+	outline: none;
+	margin: 10px 0 15px 0;
+	border: 2px solid $primary-color-navyBlue;
+	border-radius: 10px;
+}
+
+.input-field1:focus {
+	border-color: $secondary-color-purple1;
+	margin: 0%;
+}
+
+.input-textarea1 {
+	width: 400px;
+	font-size: 1em;
+	padding: 10px 20px;
+	outline: none;
+	font-family: $fontfam-1;
+	margin: 10px 0 15px 0;
+	border: 2px solid $primary-color-navyBlue;
+	border-radius: 10px;
+	height: 130px;
+	resize: none;
+}
+
+.input-textarea1:focus {
+	border-color: $secondary-color-purple1;
+}
+
+.select-option1 {
+	width: 350px;
+	border: none;
+}
+
+.btn-container-add-vehicle1 {
+	margin-top: 125px;
+	display: flex;
+	justify-content: space-evenly;
+	width: 400px;
+}
+
+.submit-btn1 {
+	padding: 5px 50px;
+	width: 200px;
+	outline: none;
+	border: 2px solid transparent;
+	font-size: 18px;
+	background-color: $secondary-color-purple1;
+	color: white;
+	border-radius: 10px;
+	transition: 0.4s;
+}
+
+.cancel-btn1{
+	padding: 5px 50px;
+	width: 180px;
+	outline: none;
+	border: 2px solid $secondary-color-purple1;
+	font-size: 18px;
+	background-color: transparent;
+	color: $secondary-color-purple1;
+	border-radius: 10px;
+	transition: 0.4s;
+}
+
+.submit-btn1:hover {
+	cursor: pointer;
+	box-shadow: 4px 4px 8px rgba($color: #000000, $alpha: 0.6);
+}
+
+.reset-btn1:hover {
+	cursor: pointer;
+	box-shadow: 4px 4px 8px rgba($color: #000000, $alpha: 0.6);
+}

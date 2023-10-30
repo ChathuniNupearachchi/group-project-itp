@@ -1,0 +1,160 @@
+// colors
+$primary-color-navyBlue: #2c2c54;
+$secondary-color-purple1: #7d5fff;
+$secondary-color-purple2: #5f27cd;
+$secondary-color-purple3: #9980fa;
+$secondary-color-purple4: #e9e3ff;
+.main-container {
+    width: 100%;
+    height: 100vh; /* Adjust the height for full viewport height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .overall-report-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px; /* Added margin for separation */
+  }
+  
+  .insight-card {
+    padding: 20px; /* Adjust padding for larger size */
+    width: 300px; /* Adjust width for larger size */
+    margin: 20px 0; /* Adjust margin for vertical spacing */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: $secondary-color-purple3;
+    user-select: none;
+    transition: 0.2s;
+  }
+  
+  .insight-card:hover {
+    box-shadow: 5px 5px 1px rgba($color: #000000, $alpha: 1);
+  }
+  
+  /* ... Rest of your existing styles for insight cards */
+  
+  /* Remove the priority level stylings */
+  
+  /* ... Rest of your styles */
+  
+
+.insight-card:hover {
+	box-shadow: 5px 5px 1px rgba($color: #000000, $alpha: 1);
+}
+
+.insight-card-pic {
+	width: 70px;
+	height: 70px;
+}
+
+.insight-card-details {
+	padding-left: 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	color: white;
+}
+
+.item-count-displayer {
+	font-size: 40px;
+	font-weight: 600;
+}
+
+.insight-card-title {
+	font-size: 18px;
+	font-weight: 600;
+}
+
+// second row styles goes on here
+.row-heading {
+	width: 100%;
+	padding: 0 20px;
+	color: $secondary-color-purple3;
+	font-size: 22px;
+	font-weight: 600;
+}
+
+ 
+
+.running-short-container {
+	width: 100%;
+	height: 390px;
+	padding: 0 10px;
+	margin: 5px;
+	overflow-y: scroll;
+}
+
+// this class is for the table headers
+.running-short-item-head {
+	width: 100%;
+	padding: 10px 20px;
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 10px;
+	border-top: 1px solid #888;
+	border-bottom: 1px solid #888;
+}
+
+.running-short-item {
+	border-radius: 12px;
+	width: 100%;
+	padding: 10px 20px;
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 5px;
+	border: 1px solid rgba($color: #000000, $alpha: 0.4);
+}
+
+.item-field-head {
+	width: 200px;
+	text-align: center;
+	color: #2c2c54;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.item-field {
+	width: 200px;
+	text-align: center;
+	color: #2c2c54;
+	font-size: 16px;
+}
+
+.running-short-container::-webkit-scrollbar {
+	width: 0.5em;
+}
+
+.running-short-container::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+.running-short-container::-webkit-scrollbar-thumb {
+	background-color: $secondary-color-purple3;
+	border-radius: 0.5em;
+}
+
+// priority level stylings
+
+.pr-lvl-medium {
+	text-align: center;
+	border-radius: 5px;
+	padding: 5px 12px;
+	background-color: #e67e22;
+	color: white;
+}
+
+.pr-lvl-high {
+	text-align: center;
+	border-radius: 5px;
+	padding: 5px 24px;
+	background-color: #e74c3c;
+	color: white;
+}

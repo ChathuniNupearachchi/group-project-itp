@@ -1,0 +1,56 @@
+// colors
+$primary-color-navyBlue: #2c2c54;
+$secondary-color-purple1: #7d5fff;
+$secondary-color-purple2: #5f27cd;
+$secondary-color-purple3: #9980fa;
+$secondary-color-purple4: #e9e3ff;
+$ash-color: #636e72;
+
+  /* view-items.scss */
+
+.Inventoryview-inventory-item-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.Inventoryitem-details-container {
+  padding: 40px;
+  border: 1px solid #ccc;
+  max-width: 600px;
+  width: 100%;
+  font-size: 18px;
+  text-align: center;
+  position: relative;
+}
+
+.Inventoryfield {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.Inventoryfield-name {
+  font-weight: bold;
+  text-align: left;
+  min-width: 120px;
+}
+
+.Inventoryfield-value {
+  text-align: left;
+  flex: 1;
+  margin-left: 20px;
+}
+/* Style the delete and edit buttons */
+.Inventoryaction-buttons {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.Inventoryaction-buttons button {
+  margin: 0 10px;
+}
