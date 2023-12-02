@@ -34,7 +34,7 @@ const ManageOrders = () => {
 
   return (
     <AdminLayout>
-      <h1>ManageOrders </h1>
+      <h1>Manage Orders </h1>
     <div>
       <ReactToPrint
         content={() => <PrintableTable orders={filteredOrders} />}

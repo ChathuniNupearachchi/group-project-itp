@@ -6,7 +6,7 @@ const Actionbar = () => {
   return (
     <div className="main-ribbon">
         <div className="inventory-management-text">
-            WELCOME, EMPLOYEE MANAGEMENT 
+            WELCOME, ORDER MANAGEMENT 
         </div>
      
         <div className="user-details">
